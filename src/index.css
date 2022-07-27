@@ -1,0 +1,94 @@
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(17,17,17);
+        /* background-image: url(./images/background2.jpg); */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: right;
+    }
+    .logo{
+        width: 50px;
+        margin: 2%;
+    }
+    .card-info{
+        width: 80%;
+        position: absolute;
+        right: 80%;
+        left: 10%;
+        top: calc(50% - 140px);
+        display: flex;
+        
+    }
+    .my-pic{
+        width: 25%;
+        border-radius: 50%;
+        min-width: 150px;
+        min-height: 50px;
+        margin: auto 0 auto 0;
+
+    }
+    .name{
+        width:50% ;
+        margin: auto auto auto 10px;
+        flex-wrap: nowrap;
+    }      
+    .info{
+        margin-top: 5%;
+        font-family: 'Roboto Mono';
+    }
+    .contacts{
+        position: absolute;
+        right: 2%;
+        top: 20%;
+    }
+    .contact-back{
+        background-color: rgba(250, 250, 250, 0.1);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        display: flex;
+    }
+    .contact-icon{
+        width:60%;
+        margin: auto;
+    }
+    .large{
+        width: 80%;
+    }
+    .water-mark{
+        position: fixed;
+        height: 100%;
+        height: 1600px;
+        min-height: 500px;
+        right: 0;
+    }
+    .Resume{
+        background-color: #22C3F9;
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        position: absolute;
+        right: 80%;
+        left: 10%;
+        top: calc(50% + 180px);
+        width: 20%;
+        min-width: 250px;
+        border: 1px solid #089cce;
+    }
+    .Resume:hover{
+        cursor: pointer;
+        background-color: #3ab7e0;
+    }
