@@ -41,11 +41,13 @@
     } 
     .my-name{
         font-size: 5vw;
+        text-shadow: 0 0 3px #000000;
 }
     .info{
         margin-top: 5%;
         font-family: 'Roboto Mono';
         font-size: 2vw;
+        text-shadow: 0 0 3px #000000;
     }
     .contacts{
         position: absolute;
