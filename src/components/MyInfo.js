@@ -11,7 +11,7 @@ export default function Header() {
         <div className="card-info">
             <img src="./images/ahmed.png" className="my-pic" alt=""/>
             <div className="name">
-                <h1>Ahmed khalil</h1>
+                <h1 className="my-name">Ahmed khalil</h1>
                 <h3 className="info">Front-End Web Developer</h3>
                 <h4 className="info">From Egypt</h4>
             </div>
