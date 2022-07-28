@@ -29,24 +29,26 @@
         
     }
     .my-pic{
-        width: 25%;
+        width: 25vw;
+        max-width: 250px;
         border-radius: 50%;
         margin: auto 0 auto 0;
 
     }
     .name{
-        width:50% ;
         margin: auto auto auto 10px;
         flex-wrap: nowrap;
     } 
     .my-name{
         font-size: 5vw;
+        font-size: 6vmin;
         text-shadow: 0 0 3px #000000;
 }
     .info{
         margin-top: 5%;
         font-family: 'Roboto Mono';
         font-size: 2vw;
+        font-size: 3vmin;
         text-shadow: 0 0 3px #000000;
     }
     .contacts{
@@ -72,21 +74,21 @@
     }
     .water-mark{
         position: fixed;
-        height: 100vh;
+        min-height: 100vh;
+        height: 1200px;
         right: 0;
     }
     .Resume{
         background-color: #22C3F9;
-        padding: 10px;
+        padding: 20px;
         font-size: 2vw;
+        font-size: 3vmin;
         border-radius: 20px;
         font-weight: bold;
         letter-spacing: 1px;
         position: absolute;
-        right: 80%;
         left: 10%;
         top: calc(50% + 180px);
-        width: 5vw;
         min-width: 150px;
         border: 1px solid #089cce;
     }
