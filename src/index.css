@@ -8,12 +8,17 @@
     body{
         width: 100%;
         height: 100vh;
-        background-color: rgb(17,17,17);
         /* background-image: url(./images/background2.jpg); */
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: right;
+    }
+    .dark-all-cont{
+        background-color: rgb(17,17,17);
+        width: 100%;
+        height: 100vh;
+    }
+    .all-cont{
+        background-color: rgb(245, 240, 240);
+        width: 100%;
+        height: 100vh;
     }
     .logo{
         width: 50px;
@@ -39,22 +44,34 @@
         margin: auto auto auto 10px;
         flex-wrap: nowrap;
     } 
-    .my-name{
+    .dark-my-name{
         font-size: 5vw;
         font-size: 6vmin;
         text-shadow: 0 0 3px #000000;
 }
-    .info{
+    .my-name{
+        font-size: 5vw;
+        font-size: 6vmin;
+        color:rgb(17,17,17);
+    }
+    .dark-info{
         margin-top: 5%;
         font-family: 'Roboto Mono';
         font-size: 2vw;
         font-size: 3vmin;
         text-shadow: 0 0 3px #000000;
     }
+    .info{
+        margin-top: 5%;
+        font-family: 'Roboto Mono';
+        font-size: 2vw;
+        font-size: 3vmin;
+        color: rgb(17, 17, 17);
+    }
     .contacts{
         position: absolute;
         right: 2%;
-        top: 20%;
+        top: 8vh;
     }
     .contact-back{
         background-color: rgba(250, 250, 250, 0.1);
@@ -78,7 +95,7 @@
         height: 1200px;
         right: 0;
     }
-    .Resume{
+    .dark-Resume{
         background-color: #22C3F9;
         padding: 20px;
         font-size: 2vw;
@@ -92,7 +109,29 @@
         min-width: 150px;
         border: 1px solid #089cce;
     }
-    .Resume:hover{
+    .dark-Resume:hover{
         cursor: pointer;
         background-color: #3ab7e0;
+    }
+    .Resume{
+        background-color: #0071EF;
+        padding: 20px;
+        font-size: 2vw;
+        font-size: 3vmin;
+        border-radius: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 10%;
+        top: calc(50% + 180px);
+        min-width: 150px;
+        border: 1px solid #0162cf;
+    }
+    .Resume:hover{
+        cursor: pointer;
+        background-color: #0077ff;
+    }
+    .change{
+        margin-top:20vh;
+        cursor: pointer;
     }
