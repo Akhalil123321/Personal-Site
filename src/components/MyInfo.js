@@ -2,7 +2,7 @@
 import React from "react";
 export default function Header(props) {
     function downloadResume(){
-        window.open('https://drive.google.com/uc?export=download&id=1_XbBa01ivowO6pf-JM35TWAh2GAup82m','_black').focus()
+        window.open('https://drive.google.com/uc?export=download&id=1IEu6xdT5-EB0oADyptL1w0vRrWXS7fkz','_black').focus()
     }
     const nameDark = props.darkMode ? 'dark-my-name' : 'my-name'
     const infoDark = props.darkMode ? 'dark-info' : 'info'
@@ -24,5 +24,3 @@ export default function Header(props) {
     </div>
 )
 }
-// import { Link } from "react-router-dom";
-/* <Link to="/Main" className='logo-img'></Link> */
