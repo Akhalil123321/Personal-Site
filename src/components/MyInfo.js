@@ -2,7 +2,7 @@
 import React from "react";
 export default function Header(props) {
     function downloadResume(){
-        window.open('https://drive.google.com/uc?export=download&id=1IEu6xdT5-EB0oADyptL1w0vRrWXS7fkz','_black').focus()
+        window.open('https://drive.google.com/uc?export=download&id=1Fv1JeVrZvVnyGGnS9NW2m0PVPoD74E8R','_black').focus()
     }
     const nameDark = props.darkMode ? 'dark-my-name' : 'my-name'
     const infoDark = props.darkMode ? 'dark-info' : 'info'
