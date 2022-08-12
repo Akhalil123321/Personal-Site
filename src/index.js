@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import App from "./App";
+import MyProjects from './routes/MyProjects'
 import './index.css'
 
 const root = ReactDOM.createRoot(
@@ -14,6 +15,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App/>} />
+      <Route path="/MyProjects" element={<MyProjects/>} />
     </Routes>
   </BrowserRouter>
 );

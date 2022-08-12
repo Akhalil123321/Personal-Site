@@ -64,19 +64,15 @@ const decryptOptions = {
     interval: 50,
 };
 
-export const TextDecrypt = (props) => {
+const TextDecrypt = (props) => {
     const { result, dencrypt } = useDencrypt(decryptOptions);
-
     React.useEffect(() => {
         const updateText = () => {
             dencrypt(props.text || "");
         };
-
         const action = setTimeout(updateText, 0);
-
         return () => clearTimeout(action);
     }, [dencrypt, props.text]);
-
     return (
         <p>
             {result}
@@ -84,3 +80,4 @@ export const TextDecrypt = (props) => {
         </p>
     );
 };
+export default TextDecrypt

@@ -21,8 +21,13 @@
         height: 100vh;
     }
     .logo{
-        width: 50px;
+        width: 70px;
         margin: 2%;
+    }
+    @media screen and (max-width:680px) {
+        .logo{
+            width: 50px;
+        }
     }
     .card-info{
         width: 80%;
@@ -38,35 +43,39 @@
         max-width: 250px;
         border-radius: 50%;
         margin: auto 0 auto 0;
-
     }
+
     .name{
         margin: auto auto auto 10px;
         flex-wrap: nowrap;
     } 
-    .dark-my-name{
-        font-size: 5vw;
-        font-size: 6vmin;
+    .my-name, .dark-my-name{
+        font-size: 4rem;
         text-shadow: 0 0 3px #000000;
-}
-    .my-name{
-        font-size: 5vw;
-        font-size: 6vmin;
-        color:rgb(17,17,17);
+        letter-spacing: 4px;
     }
-    .dark-info{
+    .my-name{
+        text-shadow: 0 0 3px #000000;
+        text-shadow: 0 0 5px #000000;
+}
+    .dark-info, .info{
         margin-top: 5%;
         font-family: 'Roboto Mono';
-        font-size: 2vw;
-        font-size: 3vmin;
+        font-size: 2rem;
         text-shadow: 0 0 3px #000000;
+        letter-spacing: 2px;
     }
     .info{
-        margin-top: 5%;
-        font-family: 'Roboto Mono';
-        font-size: 2vw;
-        font-size: 3vmin;
-        color: rgb(17, 17, 17);
+        text-shadow: 0 0 3px #000000;
+        text-shadow: 0 0 5px #000000;
+    }
+    @media screen and (max-width:680px) {
+        .my-name, .dark-my-name{
+            font-size: 6vmin;
+        }
+        .dark-info, .info{
+            font-size: 3vmin;
+        }
     }
     .contacts{
         position: absolute;
@@ -95,41 +104,47 @@
         height: 1200px;
         right: 0;
     }
-    .dark-Resume{
-        background-color: #22C3F9;
+    
+    .btn-container{
+        display: flex;
+        position: absolute;
+        left: 10%;
+        top: calc(50% + 180px); 
+        gap: 1rem;
+    }
+    .Resume, .dark-Resume{
+        background-color: #2986f1;
         padding: 20px;
         font-size: 2vw;
         font-size: 3vmin;
         border-radius: 20px;
         font-weight: bold;
         letter-spacing: 1px;
-        position: absolute;
-        left: 10%;
-        top: calc(50% + 180px);
-        min-width: 150px;
+        width: 250px;
+        border: 1px solid #1671da;
+    }
+    @media screen and (max-width:680px) {
+        .btn-container{
+            flex-direction: column;
+            top: calc(50% + 110px); 
+            
+        }
+        .Resume, .dark-Resume{
+            width: 40vw;
+            min-width: 150px;
+        }
+    }
+    .Resume:hover{
+        cursor: pointer;
+        background-color: #0077ff;
+    }
+    .dark-Resume{
+        background-color: #22C3F9;
         border: 1px solid #089cce;
     }
     .dark-Resume:hover{
         cursor: pointer;
         background-color: #3ab7e0;
-    }
-    .Resume{
-        background-color: #0071EF;
-        padding: 20px;
-        font-size: 2vw;
-        font-size: 3vmin;
-        border-radius: 20px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        position: absolute;
-        left: 10%;
-        top: calc(50% + 180px);
-        min-width: 150px;
-        border: 1px solid #0162cf;
-    }
-    .Resume:hover{
-        cursor: pointer;
-        background-color: #0077ff;
     }
     .change{
         margin-top:20vh;

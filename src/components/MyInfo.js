@@ -1,5 +1,6 @@
-
 import React from "react";
+import {Link} from "react-router-dom";
+import DencryptEffect from './DencryptEffect'
 export default function Header(props) {
     function downloadResume(){
         window.open('https://drive.google.com/uc?export=download&id=1DTwnufVudVsvq6ZkWNLeBQ4zLfEL36l5','_black').focus()
@@ -15,12 +16,23 @@ export default function Header(props) {
         <div className="card-info">
             <img src="./images/ahmed.png" className="my-pic" alt=""/>
             <div className="name">
-                <h1 className={nameDark}>Ahmed khalil</h1>
-            <h3 className={infoDark}>Front-End Web Developer</h3>
-                <h4 className={infoDark}>From Egypt</h4>
+                <h1 className={nameDark}>
+                    <DencryptEffect text='Ahmed khalil'/>
+                </h1>
+                <h3 className={infoDark}>
+                    <DencryptEffect text='Front-End Web Developer'/>
+                </h3>
+                <h4 className={infoDark}>
+                    <DencryptEffect text='From Egypt'/>
+                </h4>
             </div>
         </div>
-        <button className={Resume} onClick={downloadResume}>Download Resume</button>
+        <div className="btn-container">
+            <button className={Resume} onClick={downloadResume}>Download Resume</button>
+            <Link to="/MyProjects">
+                <button className={Resume} >My Projects</button>
+            </Link>
+        </div>
     </div>
 )
 }
