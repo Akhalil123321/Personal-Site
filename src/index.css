@@ -5,6 +5,9 @@
     color: #FAFAFA;
     font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;;
     }
+    ::-webkit-scrollbar{
+        display: none;
+    }
     body{
         width: 100%;
         height: 100vh;
@@ -150,3 +153,79 @@
         margin-top:20vh;
         cursor: pointer;
     }
+    /*my projects*/
+    .my-projects-cont{
+        background-color: rgb(17,17,17);
+        background-image: url(./images/watermark2.png);
+        background-size: cover;
+        width: 100vw;
+        min-height: 100vh;
+        height: 100%;
+        padding-top: 5rem;
+    }
+    .my-projects-logo{
+        width: 70px;
+        margin: 2%;
+        position: absolute;
+        top: 0;
+    }
+    @media screen and (max-width:680px) {
+        .my-projects-logo{
+            width: 50px;
+        }
+        .my-projects-cont{
+
+        }
+    }
+    .card-cont{
+        width: 80%;
+        display: flex;
+        margin:auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4%;
+        height:calc(100vh - 5rem);
+        overflow: scroll;
+    }
+    .card-one{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:1rem;
+        letter-spacing: 3px;
+        margin-bottom: 1rem;
+    }
+    .image-cont{
+        width: 100%;
+        padding-top: 10%;
+    }
+    .image-cont:hover{
+        width: 110%;
+        padding-top: 7.5%;
+        transition: 1s;
+    }
+    .project-image{
+        width: 100%;
+    }
+    .project-name{
+        text-shadow: 0 0 3px #000000;
+        text-shadow: 0 0 5px #000000;
+    }
+    @media screen and (max-width:680px) {
+        .card-cont{
+            width: 100%;
+            overflow: scroll;
+        } 
+        .card-one{
+            width: 75vw;
+            margin:0 ;
+            padding: 0;
+        }
+        .my-projects-cont{
+            padding-top: 3rem;
+        }
+
+}
+
