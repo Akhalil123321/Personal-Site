@@ -8,7 +8,12 @@ const project = Data.map(items => {
     return(
         <section className='card-one'>
                 <a href={items.projectURL}target="_blank" className='image-cont'>
-                    <img src={`./images/projects/${items.porjectPicture}`} alt="" className='project-image' />
+                    <img 
+                    src={`./images/projects/${items.porjectPicture}`} 
+                    alt="" 
+                    className='project-image' 
+                    title={items.title}
+                    />
                 </a>
                 <h1 className='project-name'><DencryptEffect text={items.projectName}/></h1>
         </section>
