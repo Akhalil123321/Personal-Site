@@ -209,6 +209,7 @@
     .project-name{
         text-shadow: 0 0 3px #000000;
         text-shadow: 0 0 5px #000000;
+        text-align: center;
     }
     @media screen and (max-width:680px) {
         .card-cont{
