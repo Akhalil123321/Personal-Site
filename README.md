@@ -1,6 +1,6 @@
 # Personal-Site
 demo
-<a href='https://ahmed-khalil.netlify.app/'><img src='public/images/my-site.png' width=1000vw/></a>
+<a href='https://ahmed-khalil.pages.dev/'><img src='public/images/my-site.png' width=1000vw/></a>
 
 # Getting Started with Create React App
 
