@@ -3,25 +3,31 @@ export default [
     {
         projectName:'TEk Store',
         porjectPicture:'tek.png',
-        projectURL:'https://tek-store.netlify.app/',
+        projectURL:'https://tekstore.pages.dev/',
         title: 'live demo'
     },
     {
         projectName:'Hotel Room Booking',
         porjectPicture:'room boking.png',
-        projectURL:'https://hotel-room-booking2.netlify.app/',
+        projectURL:'https://hotelbooking.pages.dev/',
         title: 'live demo'
     },
     {
         projectName:'Meme Generator',
         porjectPicture:'meme generator.png',
-        projectURL:'https://meme-generator75.netlify.app/',
+        projectURL:'https://memegenerator.pages.dev/',
         title: 'live demo'
     },
     {
         projectName:'Gym Website',
         porjectPicture:'gym-site.png',
-        projectURL:'https://gymwibsite.netlify.app/',
+        projectURL:'https://gymwebsite-91b.pages.dev/',
+        title: 'live demo'
+    },
+    {
+        projectName:'Speed Typing Counter',
+        porjectPicture:'speed-site.png',
+        projectURL:'https://speedtypingcounter.pages.dev/',
         title: 'live demo'
     },
     {
