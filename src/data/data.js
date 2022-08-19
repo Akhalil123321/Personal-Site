@@ -13,6 +13,12 @@ export default [
         title: 'live demo'
     },
     {
+        projectName:'NETFLIX Clone',
+        porjectPicture:'netflix clone.png',
+        projectURL:'https://netflixclone-a9w.pages.dev/',
+        title: 'live demo'
+    },
+    {
         projectName:'Meme Generator',
         porjectPicture:'meme generator.png',
         projectURL:'https://memegenerator.pages.dev/',
