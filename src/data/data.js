@@ -7,6 +7,12 @@ export default [
         title: 'live demo'
     },
     {
+        projectName:'HooBank',
+        porjectPicture:'hooBank-site.png',
+        projectURL:'https://hoo-bank-1dm.pages.dev/',
+        title: 'live demo'
+    },
+    {
         projectName:'Hotel Room Booking',
         porjectPicture:'room boking.png',
         projectURL:'https://hotelbooking.pages.dev/',
