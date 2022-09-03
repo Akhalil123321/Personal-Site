@@ -24,16 +24,23 @@ export default [
         projectURL:'https://netflixclone-a9w.pages.dev/',
         title: 'live demo'
     },
-    {
-        projectName:'Meme Generator',
-        porjectPicture:'meme generator.png',
-        projectURL:'https://memegenerator.pages.dev/',
-        title: 'live demo'
-    },
+    
     {
         projectName:'Gym Website',
         porjectPicture:'gym-site.png',
         projectURL:'https://gymwebsite-91b.pages.dev/',
+        title: 'live demo'
+    },
+    {
+        projectName:'Redux Store',
+        porjectPicture:'redux-store-site.png',
+        projectURL:'https://redux-store.pages.dev/',
+        title: 'live demo'
+    },
+    {
+        projectName:'Meme Generator',
+        porjectPicture:'meme generator.png',
+        projectURL:'https://memegenerator.pages.dev/',
         title: 'live demo'
     },
     {
