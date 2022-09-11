@@ -38,6 +38,12 @@ export default [
         title: 'live demo'
     },
     {
+        projectName:'Pyramids',
+        porjectPicture:'pyramids-site.png',
+        projectURL:'https://pyramid-22f.pages.dev',
+        title: 'live demo'
+    },
+    {
         projectName:'Meme Generator',
         porjectPicture:'meme generator.png',
         projectURL:'https://memegenerator.pages.dev/',
