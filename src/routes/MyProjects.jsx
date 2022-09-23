@@ -9,7 +9,7 @@ const project = Data.map(items => {
         <section className='card-one'>
                 <a href={items.projectURL}target="_blank" className='image-cont'>
                     <img 
-                    src={`./images/projects/${items.porjectPicture}`} 
+                    src={items.porjectPicture}
                     alt="" 
                     className='project-image' 
                     title={items.title}
