@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import DencryptEffect from './DencryptEffect'
 export default function Header(props) {
     function downloadResume(){
-        window.open('https://drive.google.com/uc?export=download&id=1WGOScxkR-804rdFFgxTjhB65EkdD-z3b','_black').focus()
+        window.open('https://drive.google.com/uc?export=download&id=1OY2s-ya6tBWjvvniLOEeSQ3Wnpg_u83o','_black').focus()
     }
     const nameDark = props.darkMode ? 'dark-my-name' : 'my-name'
     const infoDark = props.darkMode ? 'dark-info' : 'info'

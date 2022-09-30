@@ -46,7 +46,7 @@ export default [
     {
         projectName:'BoStep',
         porjectPicture:'https://i.im.ge/2022/09/24/15cMJP.bostep-site.png',
-        projectURL:'https://bostep.pages.dev',
+        projectURL:'https://bostep.netlify.app/',
         title: 'live demo'
     },
     {
